@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <header>
+        <h2 align="center"><b>Employee Management System</b></h2>
+       </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="regestration.html">Regestrations</a>
+            <a href="login.html">Login</a>
+            <a href="contact.html">Contact us</a>
+           
+        </nav>
+    
+        <h3 align="center">Employee Register Form</h3>
+        <form  class="mx-auto w-50"     align="center" method="post" action="login.html">
+            <br>
+            <label>Enter your Login Name</label>
+            <input type="text" id="name" name ="name" required /><br>
+            <label>Enter your Email Address</label>
+            <input type="email" id="email" name ="email" required /><br>
+            <label>Enter your Contact Number</label>
+            <input type="number" id="contact" name ="contact" required /><br>
+            <label>Enter your Password</label> 
+            <input type="password" id="pwd" name="pwd" required/><br>
+            <div class="mb-3">
+                <label for="dept" class="fw-bold">Choose Department</label>
+                <select name="dept" required class="form-select">
+                  <option value="">---Select---</option>
+                  <option value="reg">REGULAR</option>
+                  <option value="exp">EXPERINCED</option>
+                  <option value="exprt">EXPERT</option>
+                </select>
+      
+              </div>
+            <div class="button-container">
+                <button type="submit">Register</button>
+                <button type="reset">Clear</button>
+            </div>
+           
+
+
+        </form>
+        
+       
+    
+</body>
+</html>
